@@ -23,34 +23,38 @@ This is a **3D portfolio website** built with:
 
 ---
 
-## 📸 **Preview**  
-![Portfolio Preview](./public/preview.png)  
-
+## 🌐 Live Demo  
+> **"Check out my work here 👉 [Portfolio](https://sanjana-portfoilo.netlify.app/)"**
 ---
 
 ## 🛠️ **Installation & Setup**  
-1. **Clone the repository**  
+- **Clone the repository**  
 ```sh
 git clone https://github.com/Sanjana1201/sanjana-portfolio.git
 ```
-2. Navigate to the Project Directory
+- **Navigate to the Project Directory**
 ```sh
 cd sanjana-portfolio
 ```
-✅ 3. Install Dependencies
-Use npm to install all required dependencies:
+- **Install Dependencies**
+
+    Use npm to install all required dependencies:
 ```sh
 npm install
 ```
-✅ 4. Set Up Environment Variables
-Create a .env file in the root directory and add the following keys:
+- **Set Up Environment Variables**
+
+    Create a .env file in the root directory and add the following keys:
 ```sh
 VITE_APP_EMAILJS_SERVICE_ID=your_service_id
 VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
 VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
 ```
-✅ 5. Start the Development Server
-To run the project locally:
+   Replace the placeholder values with your actual EmailJS credentials. You can obtain these credentials by signing up on the [EmailJS](https://www.emailjs.com/) website.
+
+- **Start the Development Server**
+
+    To run the project locally:
 ```sh
 npm run dev
 ```
