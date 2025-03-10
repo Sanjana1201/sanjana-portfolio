@@ -20,9 +20,16 @@ import {
   tesla,
   shopify,
   carrent,
+nxtWave,
+  deloitte,
+  adobe,
+  salesforce,
+  mysql,
   jobit,
   tripguide,
   threejs,
+nxtWatch,
+  crimePortal,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +49,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "MERN stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Adobe Experience Cloud Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Marketing Technology Developer",
     icon: creator,
   },
 ];
@@ -81,8 +88,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Adobe",
+    icon: adobe,
   },
   {
     name: "Tailwind CSS",
@@ -97,8 +104,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Salesforce",
+    icon: salesforce,
   },
   {
     name: "git",
@@ -109,63 +116,38 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "mySQL",
+    icon: mysql,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer",
+    company_name: "NxtWave Disruptive Technologies PVT LTD",
+    icon: nxtWave,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - June 2023",
     points: [
+"Worked as a front-end developer for a platform for coder’s community of 200,000+ students.",
+      "Served Query Resolution and Placement Support team and developed features according to business requirements, utilizing cutting-edge technologies to deliver high-quality features.",
+      "Led the front-end development of an AI-powered mock interview platform(Version 1), with around 100 test users.",
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Marketing Technology Developer | Analyst",
+    company_name: "Deloitte",
+    icon: deloitte,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developed and optimized Salesforce Marketing Cloud and Adobe Journey Optimizer email templates, leveraging object-oriented design to improve efficiency by 70% and reduce costs by $25,000+.",
+      "Designed customer journeys in AJO, automating workflows and improving multi-tiered system performance.",
+      "Built CDP platforms, designing schemas, integrating REST APIs and optimizing query performance.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+          ],
   },
 ];
 
@@ -198,12 +180,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Crime Portal",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A responsive 22 pages crime portal website with Google authentication and authorization to log crime reports for faster and easier online complaints. Google logins are integrated using O-Auth.",
     tags: [
       {
-        name: "react",
+        name: "EJS",
         color: "blue-text-gradient",
       },
       {
@@ -211,54 +193,33 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: crimePortal,
+    source_code_link: [{ name: "https://github.com/Sanjana1201/Crime-Portal", type: "github"},]
   },
   {
-    name: "Job IT",
+    name: "NxtWatch",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A cross-browser compatible Youtube clone website that allows users to watch videos and save them. i18n is used to make the website multilingual and Themeprovider is used to toggle themes.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MobX",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: nxtWatch,
+    source_code_link: [{name: "https://github.com/Sanjana1201/nxtWatch", type: "github"},{name: "https://sanjanas-nxtwatch.netlify.app", type: "link"}]
   },
 ];
 
