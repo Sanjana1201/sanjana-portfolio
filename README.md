@@ -1,22 +1,60 @@
-# Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React.js
-![3D Portfolio](https://i.ibb.co/9ykhLtM/Thumbnail.png)
+# 🚀 Sanjana Choudhary - Portfolio Website  
 
-## Introduction
-The existence of React Native makes React one of the most valuable skills to have. Learn how to transform 75% of your knowledge from making websites into building mobile applications today!
+Welcome to my **personal portfolio website**! This project showcases my skills, experience, and projects as a **frontend and full-stack developer**. The website is built using modern technologies to create a dynamic and responsive user experience.  
 
-In this course, you'll learn the following:
-- ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
-- React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React
-- TailwindCSS - a popular utility-first CSS styling framework
-- Framer Motion - the most popular library used to bring your React website to life with animations
-You'll also learn how to:
-- Load, create and customize stunning 3D models and geometries with various lights, as well as understand the 3D world with a camera and positioning of an object in space.
-- Make your code reusable and scalable using Higher Order Components (HOCs) and other industry-standard best practices
-- Implement sending emails through a form on the website
-- Ensure responsiveness across all devices and improve your site's performance using Suspense and Preload.
+---
 
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://jsmasterypro.com/newsletter
-## Want to land your dream programming job in 3 - 6 months?
-⭐ JSM Masterclass Experience - https://jsmastery.pro/masterclass
-Become a Software Engineer. Guaranteed.
+## 🌟 **About the Project**  
+This is a **3D portfolio website** built with:  
+- **React** – For building the frontend.  
+- **Three.js** – For creating 3D models and interactive graphics.  
+- **Framer Motion** – For smooth animations and transitions.  
+- **CSS** – For fast and responsive styling.  
+- **EmailJS** – For handling the contact form.  
+
+---
+
+## 🎯 **Features**  
+✅ Fully responsive and optimized for all devices  
+✅ Interactive 3D models using Three.js  
+✅ Dynamic animations using Framer Motion  
+✅ Smooth scrolling and modern UI/UX  
+✅ Contact form integrated with EmailJS  
+
+---
+
+## 📸 **Preview**  
+![Portfolio Preview](./public/preview.png)  
+
+---
+
+## 🛠️ **Installation & Setup**  
+1. **Clone the repository**  
+```sh
+git clone https://github.com/Sanjana1201/sanjana-portfolio.git
+```
+2. Navigate to the Project Directory
+```sh
+cd sanjana-portfolio
+```
+✅ 3. Install Dependencies
+Use npm to install all required dependencies:
+```sh
+npm install
+```
+✅ 4. Set Up Environment Variables
+Create a .env file in the root directory and add the following keys:
+```sh
+VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
+```
+✅ 5. Start the Development Server
+To run the project locally:
+```sh
+npm run dev
+```
+The app will be available at:
+👉 http://localhost:5173
+
+
